@@ -1,0 +1,3 @@
+st='Thunder Soft'
+for i in st:
+    print(i)
