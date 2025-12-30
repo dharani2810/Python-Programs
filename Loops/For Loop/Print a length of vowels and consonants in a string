@@ -1,0 +1,12 @@
+st='Thundersoft'
+vc=0
+cc=0
+v=['a','e','i','o','u','A','E','I','O','U']
+l=len(st)
+for i in range(l):
+    if st[i] in v:
+        vc=vc+1
+    else:
+        cc=cc+1
+print(f"Number of Vowels:{vc}")
+print(f"Number of Consonants:{cc}")
