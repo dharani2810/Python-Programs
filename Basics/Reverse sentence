@@ -1,0 +1,9 @@
+s = input("Enter a sentence: ")
+words = s.split()
+words.reverse()
+k=" ".join(words)
+print(k)
+
+
+#Enter a sentence: Python is very easy
+#easy very is Python
