@@ -1,0 +1,2 @@
+name = input("Enter your name: ")     #Enter your name: Dharani
+ print("Hello", name)                 #Hello Dharani                
